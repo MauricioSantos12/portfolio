@@ -1,0 +1,55 @@
+  .about {
+    height: calc(100vh - 100px);
+    width: 100%;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+
+  .titleAbout {
+    width: 100%;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 1em 0em;
+  }
+
+  .descAbout {
+    width: 100%;
+    max-width: 45vw;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  .imgAbput {
+    width: 300px;
+    border-radius: 50%;
+    height: auto;
+  }
+
+  .typed {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing 2s steps(20, end) forwards, blinking 1s infinite;
+  }
+    
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blinking {
+    0% {border-color: transparent}
+    50% {border-color: black}
+    100% {border-color: transparent}
+  }
+
+  @media screen and (max-width: 768px) {
+    .titleAbout {
+      font-size: 1.4em;
+    }
+  }

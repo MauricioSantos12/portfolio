@@ -1,0 +1,75 @@
+  .skills {
+    margin: auto;
+    margin-top: 9.5rem;
+    background: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .container--skills {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .container--skills > img {
+    width: 11.875rem;
+    height: 11.25rem;
+  }
+
+  .titleSkilss {
+    color: white;
+    font-size: 2rem;
+    max-width: 80%;
+    text-align: center;
+    margin-top: 1.5em;
+  }
+
+  .descSkilss {
+    color: white;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    margin: 2em 0;
+    text-align: justify;
+    font-weight: 100;
+  }
+  
+  .icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
+  }
+  @media screen and (max-width: 990px) {
+    .container--skills {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media screen and (max-width: 769px) {
+    .icono {
+      width: 5.875rem;
+      height: 5.25rem;
+    }
+    .container--skills {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+  }
+  @media screen and (max-width: 450px) {
+    .icono {
+      width: 5.875rem;
+      height: 5.25rem;
+    }
+    .container--skills {
+      display: flex;
+      flex-direction: column;
+    }
+    .descSkilss {
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    }
+  }
