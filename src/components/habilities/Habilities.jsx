@@ -1,13 +1,12 @@
 import React from 'react'
-import html from '../../images/html.png';
-import css from '../../images/css.png';
-import git from '../../images/Git.png';
-import reactIcon from '../../images/react.png';
-import reactNative from '../../images/react-native.png';
-import vue from '../../images/vue.png';
-import javascript from '../../images/js.png';
-import npmIcon from '../../images/npm.png';
-import bootstrap from '../../images/bootstrap.png'
+import html from '../../assets/images/html.webp';
+import css from '../../assets/images/css.webp';
+import git from '../../assets/images/Git.webp';
+import reactIcon from '../../assets/images/react.webp';
+import reactNative from '../../assets/images/react-native.webp';
+import vue from '../../assets/images/vue.webp';
+import javascript from '../../assets/images/js.webp';
+import bootstrap from '../../assets/images/bootstrap.webp'
 import './habilities.scss';
 
 const Habilities = () => {

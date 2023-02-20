@@ -1,11 +1,11 @@
 import React from 'react'
 import './projects.scss'
-import First from '../../images/Projects/First.png';
-import Second from '../../images/Projects/Second.png';
-import Third from '../../images/Projects/Third.png';
-import Fourth from '../../images/Projects/Fourth.png';
-import Sixth from '../../images/Projects/Sixth.png';
-import Seventh from '../../images/Projects/Seventh.png';
+import First from '../../assets/images/Projects/first.webp';
+import Second from '../../assets/images/Projects/second.webp';
+import Third from '../../assets/images/Projects/third.webp';
+import Fourth from '../../assets/images/Projects/fourth.webp';
+import Sixth from '../../assets/images/Projects/sixth.webp';
+import Seventh from '../../assets/images/Projects/seventh.webp';
 import { ChevronRight } from 'feather-icons-react';
 
 

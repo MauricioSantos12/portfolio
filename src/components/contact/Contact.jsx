@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import './contact.scss'
 import { Link } from "react-router-dom";
 import { XCircle, CheckCircle, AlertCircle } from 'feather-icons-react'
-import imageMauro from '../../images/imgMauro.JPG'
+import imageMauro from '../../assets/images/imgmauro.webp'
 import { sendEmailValidationRequest } from '../../actions/sendEmail.action'
-import icon from '../../images/icon_page.png'
+import icon from '../../assets/images/icon_page.webp'
 
 const Contact = () => {
   const [name, setName] = useState('');

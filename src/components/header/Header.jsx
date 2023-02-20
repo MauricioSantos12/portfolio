@@ -2,7 +2,7 @@ import './header.scss';
 import { Menu, X } from 'feather-icons-react';
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-import icon from '../../images/icon_page.png'
+import icon from '../../assets/images/icon_page.webp'
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false); 
     return (
