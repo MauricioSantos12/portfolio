@@ -7,7 +7,7 @@
   color: white;
 }
 
-.container--footer > h5{
+.container--footer > p{
   max-width: 70vw;
   font-weight: 500;
   font-size: 1.2rem;
@@ -52,4 +52,8 @@ p > a {
 .container--copy {
   display: flex;
   padding: 10px 0px;
+}
+
+.copy {
+  text-align: center;
 }
