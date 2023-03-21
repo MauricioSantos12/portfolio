@@ -52,8 +52,8 @@ const Proyects = () => {
           <div className='container-project'>
             <img src={Fourth} alt="project example" className='image--poject' />
             <div className='container--data--project'>
-              <h1 className='title'>Tic Tac App</h1>
-              <button className='button'><a href='https://elaborate-pavlova-69c6fe.netlify.app/' target='_blank'>Visit Website <ChevronRight className='iconRigth' /></a></button>
+              <h1 className='title'>News App</h1>
+              <button className='button'><a href='https://fascinating-cobbler-27d580.netlify.app/' target='_blank'>Visit Website <ChevronRight className='iconRigth' /></a></button>
             </div>
           </div>
         </section>
