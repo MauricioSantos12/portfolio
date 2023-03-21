@@ -8,7 +8,7 @@ const Footer = () => {
   year = year.getFullYear();
   return (
     <div className='container--footer'>
-      <h5>Living, learning, & leveling up one day at a time.</h5>
+      <p>Living, learning, & leveling up one day at a time.</p>
       <footer>
         <a href='https://www.linkedin.com/in/mauricio-santos-rebolledo-9a0924137/' target='_blank' className='container--icon'> <Linkedin className='icon' /> </a>
         <a href='https://github.com/MauricioSantos12' target='_blank' className='container--icon'> <Github className='icon' /> </a>
