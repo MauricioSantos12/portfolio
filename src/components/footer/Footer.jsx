@@ -10,10 +10,10 @@ const Footer = () => {
     <div className='container--footer'>
       <p>Living, learning, & leveling up one day at a time.</p>
       <footer>
-        <a href='https://www.linkedin.com/in/mauricio-santos-rebolledo-9a0924137/' target='_blank' className='container--icon'> <Linkedin className='icon' /> </a>
-        <a href='https://github.com/MauricioSantos12' target='_blank' className='container--icon'> <Github className='icon' /> </a>
-        <a href='https://twitter.com/Maurici89494430' target='_blank' className='container--icon'> <Twitter className='icon' /> </a>
-        <a href="mailto:mauricio.santosr12@gmail.com" target='_blank' className='container--icon'> <Mail className='icon' /> </a>
+        <a href='https://www.linkedin.com/in/mauricio-santos-rebolledo-9a0924137/' target='_blank' aria-label="Open Linkedin profile" className='container--icon'> <Linkedin className='icon' /> </a>
+        <a href='https://github.com/MauricioSantos12' target='_blank' className='container--icon' aria-label="Open Github profile"> <Github className='icon' /> </a>
+        <a href='https://twitter.com/Maurici89494430' target='_blank' className='container--icon' aria-label="Open Twitter profile"> <Twitter className='icon' /> </a>
+        <a href="mailto:mauricio.santosr12@gmail.com" target='_blank' className='container--icon' aria-label="Open Mail to contact me"> <Mail className='icon' /> </a>
       </footer>
       <div className='container--copy'>
         <p className="copy">Copyright {year} &copy; </p>

@@ -15,7 +15,7 @@ const Header = () => {
                 <li onClick={()=> setShowMenu(false)}><a href="#projects" >Projects</a></li>
                 <li onClick={()=> setShowMenu(false)}><Link className='contactButton' to="/contact">Contact</Link></li>
             </ul>
-            <button className="menu-hamburguesa" id="menu-hamburguesa">
+            <button className="menu-hamburguesa" id="menu-hamburguesa" aria-label="hamburguer-menu">
                 {!showMenu ?
                 <Menu onClick={()=> setShowMenu(!showMenu)}/>
                 :
