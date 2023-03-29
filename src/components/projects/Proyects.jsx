@@ -14,11 +14,18 @@ const Proyects = () => {
     <section className='container-projects'>
       <div className='container--space'>
         <section className="proyects" id="projects">
-          <div className='container-project'>
+          {/* <div className='container-project'>
             <img src={First} alt="project example" className='image--poject'/>
             <div className='container--data--project'>
               <h1 className='title'>Colombian API</h1>
               <button className='button'><a href='https://col-info.web.app/home' target='_blank'>Visit Website <ChevronRight className='iconRigth' /> </a></button>
+            </div>
+          </div> */}
+          <div className='container-project'>
+            <img src={First} alt="project example" className='image--poject'/>
+            <div className='container--data--project'>
+              <h1 className='title'>Exchange money</h1>
+              <button className='button'><a href='https://exchange-money-app-ms.netlify.app/' target='_blank'>Visit Website <ChevronRight className='iconRigth' /> </a></button>
             </div>
           </div>
           <div className='container-project'>
